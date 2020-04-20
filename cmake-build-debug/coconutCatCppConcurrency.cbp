@@ -17,62 +17,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="coconutCatCppConcurrency">
-				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/coconutCatCppConcurrency" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 coconutCatCppConcurrency"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="coconutCatCppConcurrency/fast">
-				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/coconutCatCppConcurrency" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 coconutCatCppConcurrency/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
 				<Option type="4"/>
@@ -83,9 +27,163 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="RAII">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/RAII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 RAII"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RAII/fast">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/RAII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 RAII/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/HelloWorld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld/fast">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/HelloWorld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tryAndCatch">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/tryAndCatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 tryAndCatch"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tryAndCatch/fast">
+				<Option output="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/tryAndCatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jlyw/coconutCatCppConcurrency/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 tryAndCatch/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/jlyw/coconutCatCppConcurrency/RAII.cpp">
+			<Option target="RAII"/>
+		</Unit>
 		<Unit filename="/home/jlyw/coconutCatCppConcurrency/main.cpp">
-			<Option target="coconutCatCppConcurrency"/>
+			<Option target="HelloWorld"/>
+		</Unit>
+		<Unit filename="/home/jlyw/coconutCatCppConcurrency/tryCatch.cpp">
+			<Option target="tryAndCatch"/>
 		</Unit>
 		<Unit filename="/home/jlyw/coconutCatCppConcurrency/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

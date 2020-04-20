@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/jlyw/coconutCatCppConcurrency/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/jlyw/clion-2019.1.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/jlyw/clion-2019.1.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,70 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named coconutCatCppConcurrency
+# Target rules for targets named RAII
 
 # Build rule for target.
-coconutCatCppConcurrency: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coconutCatCppConcurrency
-.PHONY : coconutCatCppConcurrency
+RAII: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RAII
+.PHONY : RAII
 
 # fast build rule for target.
-coconutCatCppConcurrency/fast:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/build
-.PHONY : coconutCatCppConcurrency/fast
+RAII/fast:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/build
+.PHONY : RAII/fast
+
+#=============================================================================
+# Target rules for targets named HelloWorld
+
+# Build rule for target.
+HelloWorld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HelloWorld
+.PHONY : HelloWorld
+
+# fast build rule for target.
+HelloWorld/fast:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
+.PHONY : HelloWorld/fast
+
+#=============================================================================
+# Target rules for targets named tryAndCatch
+
+# Build rule for target.
+tryAndCatch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tryAndCatch
+.PHONY : tryAndCatch
+
+# fast build rule for target.
+tryAndCatch/fast:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/build
+.PHONY : tryAndCatch/fast
+
+RAII.o: RAII.cpp.o
+
+.PHONY : RAII.o
+
+# target to build an object file
+RAII.cpp.o:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/RAII.cpp.o
+.PHONY : RAII.cpp.o
+
+RAII.i: RAII.cpp.i
+
+.PHONY : RAII.i
+
+# target to preprocess a source file
+RAII.cpp.i:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/RAII.cpp.i
+.PHONY : RAII.cpp.i
+
+RAII.s: RAII.cpp.s
+
+.PHONY : RAII.s
+
+# target to generate assembly for a file
+RAII.cpp.s:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/RAII.cpp.s
+.PHONY : RAII.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +182,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +200,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+tryCatch.o: tryCatch.cpp.o
+
+.PHONY : tryCatch.o
+
+# target to build an object file
+tryCatch.cpp.o:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/tryCatch.cpp.o
+.PHONY : tryCatch.cpp.o
+
+tryCatch.i: tryCatch.cpp.i
+
+.PHONY : tryCatch.i
+
+# target to preprocess a source file
+tryCatch.cpp.i:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/tryCatch.cpp.i
+.PHONY : tryCatch.cpp.i
+
+tryCatch.s: tryCatch.cpp.s
+
+.PHONY : tryCatch.s
+
+# target to generate assembly for a file
+tryCatch.cpp.s:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/tryCatch.cpp.s
+.PHONY : tryCatch.cpp.s
 
 # Help Target
 help:
@@ -156,12 +236,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... coconutCatCppConcurrency"
 	@echo "... edit_cache"
+	@echo "... RAII"
+	@echo "... HelloWorld"
+	@echo "... rebuild_cache"
+	@echo "... tryAndCatch"
+	@echo "... RAII.o"
+	@echo "... RAII.i"
+	@echo "... RAII.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tryCatch.o"
+	@echo "... tryCatch.i"
+	@echo "... tryCatch.s"
 .PHONY : help
 
 

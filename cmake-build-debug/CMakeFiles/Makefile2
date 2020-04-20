@@ -65,39 +65,113 @@ CMAKE_SOURCE_DIR = /home/jlyw/coconutCatCppConcurrency
 CMAKE_BINARY_DIR = /home/jlyw/coconutCatCppConcurrency/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/coconutCatCppConcurrency.dir
+# Target rules for target CMakeFiles/RAII.dir
 
 # All Build rule for target.
-CMakeFiles/coconutCatCppConcurrency.dir/all:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/depend
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target coconutCatCppConcurrency"
-.PHONY : CMakeFiles/coconutCatCppConcurrency.dir/all
+CMakeFiles/RAII.dir/all:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/depend
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target RAII"
+.PHONY : CMakeFiles/RAII.dir/all
 
 # Include target in all.
-all: CMakeFiles/coconutCatCppConcurrency.dir/all
+all: CMakeFiles/RAII.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/coconutCatCppConcurrency.dir/rule: cmake_check_build_system
+CMakeFiles/RAII.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/coconutCatCppConcurrency.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RAII.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/coconutCatCppConcurrency.dir/rule
+.PHONY : CMakeFiles/RAII.dir/rule
 
 # Convenience name for target.
-coconutCatCppConcurrency: CMakeFiles/coconutCatCppConcurrency.dir/rule
+RAII: CMakeFiles/RAII.dir/rule
 
-.PHONY : coconutCatCppConcurrency
-
-# clean rule for target.
-CMakeFiles/coconutCatCppConcurrency.dir/clean:
-	$(MAKE) -f CMakeFiles/coconutCatCppConcurrency.dir/build.make CMakeFiles/coconutCatCppConcurrency.dir/clean
-.PHONY : CMakeFiles/coconutCatCppConcurrency.dir/clean
+.PHONY : RAII
 
 # clean rule for target.
-clean: CMakeFiles/coconutCatCppConcurrency.dir/clean
+CMakeFiles/RAII.dir/clean:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/clean
+.PHONY : CMakeFiles/RAII.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/RAII.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HelloWorld.dir
+
+# All Build rule for target.
+CMakeFiles/HelloWorld.dir/all:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/depend
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HelloWorld"
+.PHONY : CMakeFiles/HelloWorld.dir/all
+
+# Include target in all.
+all: CMakeFiles/HelloWorld.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HelloWorld.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HelloWorld.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HelloWorld.dir/rule
+
+# Convenience name for target.
+HelloWorld: CMakeFiles/HelloWorld.dir/rule
+
+.PHONY : HelloWorld
+
+# clean rule for target.
+CMakeFiles/HelloWorld.dir/clean:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/clean
+.PHONY : CMakeFiles/HelloWorld.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HelloWorld.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tryAndCatch.dir
+
+# All Build rule for target.
+CMakeFiles/tryAndCatch.dir/all:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/depend
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target tryAndCatch"
+.PHONY : CMakeFiles/tryAndCatch.dir/all
+
+# Include target in all.
+all: CMakeFiles/tryAndCatch.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tryAndCatch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tryAndCatch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlyw/coconutCatCppConcurrency/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tryAndCatch.dir/rule
+
+# Convenience name for target.
+tryAndCatch: CMakeFiles/tryAndCatch.dir/rule
+
+.PHONY : tryAndCatch
+
+# clean rule for target.
+CMakeFiles/tryAndCatch.dir/clean:
+	$(MAKE) -f CMakeFiles/tryAndCatch.dir/build.make CMakeFiles/tryAndCatch.dir/clean
+.PHONY : CMakeFiles/tryAndCatch.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tryAndCatch.dir/clean
 
 .PHONY : clean
 
