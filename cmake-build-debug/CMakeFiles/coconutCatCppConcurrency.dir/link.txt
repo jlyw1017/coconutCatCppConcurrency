@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/coconutCatCppConcurrency.dir/main.cpp.o  -o coconutCatCppConcurrency 
+/usr/bin/c++  -g   CMakeFiles/coconutCatCppConcurrency.dir/main.cpp.o  -o coconutCatCppConcurrency -lpthread 
